@@ -9,7 +9,8 @@ repository = "https://github.com/silvanusbordignon/bmo-demo"
 
 [dependencies]
 robotics_lib = { version = "0.1.20", registry = "kellnr" }
-bmo = { git = "https://github.com/silvanusbordignon/bmo.git" }
+# bmo = { git = "https://github.com/silvanusbordignon/bmo.git" }
+bmo = { path = "../bmo" } # while working locally
 olympus = { version = "2.0.0", git = "https://github.com/Kalsifer-742/olympus.git", tag = "v2.0.0" }
 rip_worldgenerator = { version = "0.5.57", registry = "kellnr" }
 macroquad = "0.4.4"
